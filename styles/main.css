@@ -7,16 +7,25 @@ body{
     width:1200px;	
     margin:auto;
 }
+.sidebar{
+    padding: 20px;
+    margin-top: 35px;
+    border: 5px solid #2c3546;
+    border-radius: 10px;
+    flex:0 0 200px;
+}
 header{
     background-color: #507ed4;	
     border-radius: 8px;
+    display:flex;
+    justify-content: right;
 }
 nav li a{
     text-decoration: none;	
-    color: #fff;	
+    color: #e0dbdb;	
 }
 nav li a:hover{
-    color: #cf36a9;	
+    color: #e75a9c;	
 }
 nav ul li{	
     display:inline;
@@ -29,4 +38,23 @@ nav li:first-child{
 }
 h1, h2{
     font-family: 'Raleway', sans-serif;
+}
+header h1 a{
+    color:#fff;
+    text-decoration: none;
+}
+header h1 a:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding:10px;
+}
+main{
+    display:flex;
+    gap: 15px;
+    
+}
+.resize-img{
+    width:100%;
+    height:100%;
 }

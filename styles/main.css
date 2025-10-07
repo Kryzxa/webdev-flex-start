@@ -3,6 +3,30 @@ body{
     font-family: helvetica, arial, sans-serif;
 	font-size:1em;
 }
+.container{
+    width:1200px;	
+    margin:auto;
+}
+header{
+    background-color: #507ed4;	
+    border-radius: 8px;
+}
+nav li a{
+    text-decoration: none;	
+    color: #fff;	
+}
+nav li a:hover{
+    color: #cf36a9;	
+}
+nav ul li{	
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #7E8AA2;
+}
+nav li:first-child{
+    border-left:none;	
+}
 h1, h2{
     font-family: 'Raleway', sans-serif;
 }
